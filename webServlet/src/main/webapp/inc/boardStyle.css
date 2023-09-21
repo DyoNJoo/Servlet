@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.list {
+	overflow: auto;
+}
+
+.list > li {
+	float: left;
+	width: 10%;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+.list > li:nth-child(5n+2) {
+	width: 60%
+}
